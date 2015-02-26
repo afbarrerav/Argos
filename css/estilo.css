@@ -1,0 +1,555 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+/*	background: #FFFFFF url('../presentacion/imagenes/fondo.png') top center repeat;*/
+	background-color:#FFFFFF;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+
+.mapa {
+	margin: 0 auto 0 auto;
+	width: 60%;
+	height: 80%;
+	border: 4px solid #254E8F;
+	text-align: left;
+}
+
+.thrColElsHdr #container {
+	width: 960px;
+	background: #FFFFFF;
+	min-height: auto;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.thrColElsHdr #header {
+	padding: 0 10px;
+	background: #003468;
+	background-image:url(start/images/bgheader.jpg);
+	background-position:center;
+		background-position:bottom;
+
+}
+
+.thrColElsHdr #header h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.thrColElsHdr #mainContent {
+	margin: 0 0 0 0;
+	width: 100%;
+}
+
+fieldset {
+	border:2px groove #ccc; /* Borde */
+	color:#000; /* Color del texto de todo el contenido */
+	font-family: tahoma;
+	font-size: 14px;
+	text-align: center;
+}
+
+legend {
+	text-align:left; /* Puedes cambiarlo por center o right */
+	font-weight:bold; /* Estilo de la fuente del título */
+	font-size: 14px;
+	color:#003366; /* Color del título */
+}
+
+.thrColElsHdr #footer {
+	font-size: 11px;
+	margin: 0 0 0 0;
+	background: #012E5B;
+	width: 100%;
+	background-image:url(start/images/bgfooter.jpg);
+	background-position:center;
+	background-position:top;
+}
+.footertexto{ color:#ffffff;}
+
+.thrColElsHdr #footer p {
+	margin: 0;
+	padding: 10px 0;
+	
+}
+.thrColElsHdr #footer td
+{
+	color: #FFFFFF;
+}
+.thrColElsHdr #footer a
+{
+	color: #FFFFFF;
+}
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.boton {
+	border: 1px solid #778;
+	background: #DDD url('../presentacion/imagenes/fondo_boton.png') top center	repeat-x;
+	border-bottom-width: 1px solid #000;
+	color: #2d2b2b;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px 7px 4px;
+}
+
+.boton:hover 
+{
+	border: 1px solid #778;
+	background: #DDD url('../presentacion/imagenes/fondo_boton_i.png') top center repeat-x;
+	border-bottom-width: 1px solid #000;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px 7px 4px;
+}
+
+.tablaOpciones
+{ 
+/*/background: #012E5B; */
+/*border: 1px solid #3E689E; */
+color:#FFFFFF; 
+font: bold 12px/ 22px Verdana, Arial, Helvetica, sans-serif;
+padding: 5px;
+}
+
+.titulo_tabla {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	background: #ccd6cd;
+	text-align: center;
+}
+.ntitulo_tabla {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	background: #ccd6cd;
+	text-align: right;
+}
+.titulo2_tabla {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+.titulo3_tabla {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+	background: #ccd6cd;
+	text-align: center;
+}
+
+.subtitulo_tabla {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.texto_tabla {
+	font-family: tahoma;
+	font-size: 13px;
+	text-align: justify;
+}
+
+.numero_tabla {
+	font-family: tahoma;
+	font-size: 13px;
+	text-align: right;
+}
+.texto_tabla2 {
+	font-family: tahoma;
+	font-size: 10px;
+}
+.texto_tabla3 {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #f3f9f9;
+}
+.texto_tabla4 {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.texto_tabla5 {
+	font-family: tahoma;
+	font-size: 11px;
+}
+.fila:hover {
+	background-color: #f3f9f9;
+}
+.campo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	border: thin solid #696969;
+}
+.campo2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	border: thin solid #696969;
+}
+.campo_bloqueado {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	border: 0;
+}
+.campo_bloqueado:hover {
+	background-color: #f3f9f9;
+}
+.lista_desplegable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	/*color: #1A4064;*/
+	color: #000000;
+	border: thin solid #696969;
+}
+
+.img_boton{ 
+cursor:pointer;
+border: 1px solid #CCC;
+}
+
+/* ESTILOS DASHBOARD */
+
+#Recaudos
+{
+	width: 300px; 
+	height: 190px; 
+	border-radius: 25px;  
+	float: left; 
+	margin-right: 10px; 
+	text-align: center; 
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	border: 2px solid;
+}
+#nombreR
+{
+	margin-top: 5px; 
+	margin-bottom: 3px; 
+	background-color: white; 
+	width: 615px; 
+	text-align: center;
+}
+#infoR
+{
+	float: left; 
+	background-color: white; 
+	height: 140px; 
+	width: 100%; 
+	border-radius: 10px;
+}
+#masR
+{
+	background-color: gray; 
+	float: left; 
+	margin-top: 10px; 
+	height: 24px; 
+	width: 615px; 
+	cursor:pointer;
+}
+
+#Saldos
+{
+	width: 300px; 
+	height: 200px; 
+	border-radius: 25px; 
+	float: left; 
+	margin-right: 10px; 
+	text-align: center; 
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	border: 2px solid;
+}
+
+#nombreS
+{
+	margin-top: 5px;
+	margin-bottom: 3px;
+	background-color: white;
+	width: 300px;
+	text-align: center;
+}
+
+#imagenS
+{
+	float: left; 
+	margin-left: 0px; 
+	background-color: white; 
+	height: 145px; 
+	border-radius: 10px; 
+	width: 130px; 
+	background-image: url(../presentacion/imagenes/dinero.jpg); 
+	background-repeat: no-repeat; background-size: 135px;
+}
+
+#infoS
+{
+	float: left;
+	background-color: white;
+	height: 71px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+#masS
+{
+	background-color: gray; 
+	float: left;  
+	margin-top: 79px;
+	height: 24px; 
+	width: 300px; 
+	cursor:pointer;
+}
+
+#Cantidad_jva
+{
+	width: 615px; 
+	height: 200px; 
+	border-radius: 25px;  
+	float: left; 
+	margin-right: 10px; 
+	text-align: center; 
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	border: 2px solid;
+}
+
+#nombreCJ
+{
+	margin-top: 5px; 
+	margin-bottom: 3px; 
+	background-color: white; 
+	width: 300px; 
+	text-align: center;
+}
+
+#imagenCJ
+{
+	float: left; 
+	margin-left: 10px; 
+	background-color: white; 
+	height: 145px; 
+	border-radius: 10px; 
+	width: 130px; 
+	background-image: url(../presentacion/imagenes/vendido_proyectado.png); 
+	background-repeat: no-repeat; 
+	background-size: 135px;
+}
+
+#infoCJ
+{
+	float: left; 
+	margin-left: 15px; 
+	background-color: white; 
+	height: 145px; 
+	width: 135px; 
+	border-radius: 10px;
+}
+
+#masCJ
+{
+	background-color: gray; 
+	float: left; 
+	margin-top: 5px; 
+	height: 24px; 
+	width: 300px; 
+	cursor:pointer;
+}
+
+#Ventas
+{
+	width: 300px; 
+	height: 200px; 
+	border-radius: 25px;  
+	float: left; 
+	margin-right: 10px; 
+	text-align: center; 
+	margin-bottom: 10px; 
+	overflow: hidden; 
+	border: 2px solid;
+}
+
+#nombreVV
+{
+	margin-top: 5px; 
+	margin-bottom: 3px; 
+	background-color: white; 
+	width: 300px; 
+	text-align: center;
+}
+
+#imagenVV
+{
+	float: left; 
+	margin-left: 0px; 
+	background-color: white; 
+	height: 127px; 
+	border-radius: 10px; 
+	width: 130px; 
+	background-image: url(../presentacion/imagenes/vendedor.png); 
+	background-repeat: no-repeat; 
+	background-size: 135px;
+}
+
+#infoVV
+{
+	float: left;  
+	background-color: white; 
+	height: 145px; 
+	width: 300px; 
+	border-radius: 10px;
+}
+
+#masVV
+{
+	background-color: gray; 
+	float: left; 
+	margin-top: 5px; 
+	height: 24px; 
+	width: 300px; 
+	cursor:pointer;
+}
+
+#Gastos
+{
+	width: 300px;
+	height: 200px;
+	border-radius: 25px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border: 2px solid;
+}
+#nombreG
+{
+	margin-top: 5px; 
+	margin-bottom: 3px; 
+	background-color: white; 
+	width: 300px; 
+	text-align: center;
+}
+#imagenG
+{
+	float: left; 
+	margin-left: -3px; 
+	background-color: white; 
+	height: 145px; 
+	border-radius: 10px; 
+	width: 130px; 
+	background-image: url(../presentacion/imagenes/gastos-2.png); 
+	background-repeat: no-repeat; 
+	background-size: 135px;
+}
+#infoG
+{
+	float: left;
+	background-color: white; 
+	height: 153px; 
+	width: 300px; 
+	border-radius: 10px;
+}
+#masG
+{
+	background-color: gray; 
+	float: left; 
+	margin-top: -3px; 
+	height: 24px; 
+	width: 300px; 
+	cursor:pointer;
+}
+
+#nombreTH
+{
+	margin-top: 5px;
+	margin-bottom: 3px;
+	background-color: white;
+	width: 614px;
+	text-align: center;
+}
+#infoTH
+{
+	float: left;
+	background-color: white;
+	height: 347px;
+	width: 100%;
+	border-radius: 10px;
+}
+#masTH
+{
+	background-color: gray; 
+	float: left;  
+	height: 24px; 
+	width: 613px; 
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
